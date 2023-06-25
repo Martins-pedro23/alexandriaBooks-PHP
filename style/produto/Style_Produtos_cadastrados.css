@@ -1,0 +1,32 @@
+#tabela_produtos{
+    margin: 10PX auto 40px auto;
+    background-color: white;
+    border-radius: 16px;
+}
+#corpo{
+    max-width: 40em;
+    margin: 175px auto 40px auto;
+}
+th{
+    font-size: 1.3em;
+    color: #10403b;
+}
+td, th{
+    padding: 10px;
+}
+.imagem_produto{
+    max-width: 3em;
+}
+#bt_produto{
+    align-self: flex-start;
+    background-color: rgb(233, 233, 233);
+    color: #10403b;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.096);
+    padding: 8px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+#bt_produto:hover{
+    color: #127369;
+    background-color: rgb(255, 255, 255);
+}

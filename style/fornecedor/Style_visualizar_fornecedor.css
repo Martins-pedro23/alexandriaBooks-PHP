@@ -1,0 +1,19 @@
+#corpo_1{
+    background-color: white;
+    margin: 175px auto 40px auto;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.13);
+    max-width: 20em;
+}
+#corpo_1 p{
+    text-align: left;
+    margin: 5px 15px 0 10px;
+}
+#corpo_1 h3{
+    text-align: center;
+}
+#corpo_part{
+    display: flex;
+    flex-wrap: wrap;
+}

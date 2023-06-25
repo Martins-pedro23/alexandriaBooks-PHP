@@ -1,0 +1,129 @@
+.lista_produtos{
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+}
+th{
+    font-size: 1em;
+    color: #10403b;
+}
+td{
+    border-top: 1px solid rgb(204, 204, 204) !important;
+
+}
+td, th{
+    padding: 10px;
+}
+.quanti{
+    display: flex;
+    justify-content: space-evenly;
+}
+.remover{
+    text-align: center;
+}
+.botao_add_minus a{
+    margin: 0;
+    padding: 0;
+}
+.remover a, .botao_add_minus{
+    text-decoration: none;
+    color: #10403b;
+}
+.botao_add_minus{
+    background-color: rgb(233, 233, 233);
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produto_div{
+    display: flex;
+    width: 20em;
+    height: 7em;
+}
+.link_produto{
+    text-decoration: none;
+    color: #10403b;
+}
+#corpo_carrinho{
+    display: flex;
+    flex-direction: row;
+    margin: 175px 0 40px 0;
+    justify-content: space-around;
+}
+#frete{
+    margin: 5px;
+    border-top: 1px solid rgb(204, 204, 204) !important;
+}
+#frete_calc p{
+    font-size: 0.90em;
+    margin: 10px 0 0 0;
+    font-weight: 700;
+}
+#frete_calc input{
+    border: 1px solid rgb(204, 204, 204) !important;
+    border-radius: 5px;
+    padding: 4px;
+    height: 2em;
+}
+#frete_calc button{
+    border: 2px solid #10403b !important;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 2em;
+    margin-left: 4px;
+}
+.resumo_pedido{
+    background-color: white;
+    border-radius: 16px;
+    padding: 10px;
+    height:min-content;
+}
+.resumo_pedido ul{
+    list-style-type: none;
+}
+.li_p{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+#total{
+    border-top: 1px solid rgb(204, 204, 204) !important;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#total h5{
+    text-align: end;
+    margin-bottom: 0;
+}
+#total p{
+    font-size: 0.80em;
+}
+.resumo_pedido ul{
+    text-align: end;
+    color: #0a8377;
+    font-weight: 600;
+    font-size: 0.80em;
+}
+#finalizar{
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px #10403b solid ;
+}
+#finalizar:hover{
+    background-color: rgb(233, 233, 233);
+}
+#finalizar a{
+    color: #10403b;
+    text-decoration: none;
+    align-self: center;
+}

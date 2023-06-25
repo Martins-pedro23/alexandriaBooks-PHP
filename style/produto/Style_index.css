@@ -1,0 +1,36 @@
+#Corpo{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto 20px auto;
+    width: 100%;
+}
+.card{
+    max-width: 13em;
+    border-radius: 16px !important;
+}
+.card-img{
+    padding: 15px;
+}
+.card-img-top{
+    border-radius: 0;
+
+}
+.card-body p{
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+.carousel{
+    max-width: 60em;
+    margin: 175px auto 0 auto;
+}
+.carousel img{
+    border-radius: 16px;
+}
+
+.carousel span{
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 100%;
+}

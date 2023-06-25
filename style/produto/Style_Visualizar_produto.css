@@ -1,0 +1,72 @@
+.cartao{
+    background-color: white;
+    max-width: 90vh;
+    max-height: 80vh;
+    margin: 150px auto 40px auto;
+    border-radius: 16px;
+    padding: 10px;
+}
+.card-title{
+    color: #10403B;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 20px 10px 10px 10px !important;
+}
+.card-img-top{
+    max-width: 60%;
+    max-height: auto;
+    margin: 10px;
+}
+
+.card{
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 10px;
+    border: 1px rgb(197, 197, 197) solid !important;
+}
+.card p{
+    margin-top: 20px;
+    color: #10403B;
+    font-size: 20px;
+}
+.card a{
+    margin-top: 100%;
+}
+#Vis_Pro_Desc p{
+    text-align: center;
+}
+#Vis_Pro_Desc{
+    display: flex;
+    background-color: #10403B;
+    margin: 10px 0 20px 0;
+    justify-content: space-evenly;
+    padding: 20px 50px 0 50px;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_barra{
+    height: 3.5em;
+    width: 3.5em;
+}
+#Descri{
+    display: flex;
+    background-color: white;
+    margin: 10px 100px 40px 100px;
+    padding: 10px;
+    border-radius: 16px;
+    flex-direction: column;
+}
+#Descri h2{
+    text-align: center;
+    color: #10403B;
+    font-size: 2.5em;
+}
+#Descri p{
+    text-align: center;
+    color: #4C5958;
+    font-size: 2em;
+}

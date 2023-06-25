@@ -1,0 +1,90 @@
+#img_user{
+    width:  170px;
+    height: 170px;
+    align-self: center;
+    background-color: rgb(201, 201, 201);
+    border-radius: 100%;
+    margin: 15px 0 20px 0;
+}
+#bot_cliente{
+    align-self: center;
+}
+#img_bot{
+    background: rgba(29, 29, 29, 0.84);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    border: 1px solid rgba(29, 29, 29, 0.32);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+#bot_cliente a {
+    color: black;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: 700;
+}
+#bot_cliente a:hover{
+    color: #0088ff;
+    text-decoration: underline dotted;
+}
+#dados_cliente p{
+    margin: 15px 0 0 10px;
+}
+#info_usuario{
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.151);
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 175px;
+    margin-bottom: 80px;
+    padding-bottom:20px;
+    font-size: 20px;
+}
+#info_usuario p {
+    font-size: 21px;
+    color: #10403B;
+    font-weight: 500;
+}
+.dados {
+    background: rgba(29, 29, 29, 0.84);
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    border: 1px solid rgba(29, 29, 29, 0.32);
+    border-style: none;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin: auto;
+    color: #127369;
+    font-weight: 700;
+}
+#links_cliente{
+    margin-top: 20px;
+    align-self: center;
+}
+#links_cliente button{
+    background-color: rgba(224, 224, 224, 0.267);
+    border-style: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#links_cliente a {
+    color: black;
+    text-decoration: none
+}
+#links_cliente a button{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,103 @@
+#corpo_cli{
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 175px;
+    justify-content: space-around;
+}
+#bt_cli{
+    margin-right: auto;
+    align-self: flex-start;
+    background-color: rgb(233, 233, 233);
+    color: #10403b;
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.096);
+    padding: 8px;
+    border-radius: 16px;
+    text-decoration: none;
+}
+#bt_cli:hover{
+    color: #127369;
+    background-color: rgb(255, 255, 255);
+}
+#form_cli{
+    max-width: 32em;
+    border-color: rgba(104, 104, 104, 0.089);
+    border-style: solid;
+    border-width: 0.5px;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    margin: 175px auto 40px auto;
+    background: rgb(255, 255, 255) !important;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.151) !important;
+}
+#form_cli form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+#cabe_cli{
+    padding: 10px;
+}
+#cabe_cli h2, h4{
+    text-align: center;
+}
+#cabe_cli h2{
+    color: #10403B;
+    font-weight: 700;
+    font-size: 30px;
+}
+#cabe_cli h4{
+    color: #0e3834;
+    font-size: 20px;
+}
+#seus_dados{
+    margin: auto !important;
+    text-align: center;
+    color: #0e3834;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#endereco{
+    color: #0e3834;
+    font-size: 20px;
+    margin: 20px 5px 0 5px;
+    border-top: 2px #a4aaaa dotted;
+    padding-top: 5px;
+}
+#form_part{
+    border-top: 1px #a4aaaa dotted;
+    padding: 0 10px 10px 10px;
+}
+#form_part input{
+    border: 1px rgb(202, 202, 202) solid;
+    border-radius: 10px;
+    margin-top: 15px !important;
+    padding: 2px;
+}
+label{
+    color: #F55D00;
+    font-weight: 500;
+}
+#botao{
+    color: #f2f2f2;
+    font-size: 20px;
+    margin: 30px auto 0 auto;
+    background: rgba(29, 29, 29, 0.84) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(10.6px) !important;
+    -webkit-backdrop-filter: blur(10.6px) !important;
+    border: 1px solid rgba(29, 29, 29, 0.32) !important;
+    position: relative;
+    bottom: 0;
+}
+#arqui{
+    margin: auto;
+    color: #0e3834;
+}
+#nome, #email, .end_div, #endereco_cli{
+    width: 480px;
+}

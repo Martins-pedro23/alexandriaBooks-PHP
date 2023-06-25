@@ -1,0 +1,21 @@
+#corpo_compras{
+    margin: 170px auto 40px auto;
+    display: flex;
+    justify-content: center;
+}
+#minhas_compras{
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+}
+th{
+    font-size: 1em;
+    color: #10403b;
+}
+td{
+    border-top: 1px solid rgb(204, 204, 204) !important;
+
+}
+td, th{
+    padding: 10px;
+}

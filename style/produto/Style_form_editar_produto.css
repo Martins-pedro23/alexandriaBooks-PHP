@@ -1,0 +1,39 @@
+#Pro_Cas_Corpo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-body{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-height: 200px !important;
+    padding: 10px !important;
+}
+.card-img{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    height: 190px;
+    width: 190px;
+}
+.card-body a{
+    margin-top: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    max-width: 190px;
+    height: 450px !important;
+}
+.card-text{
+    color: #005c5e;
+}
+.btn-primary{
+    --bs-btn-bg: #005c5e !important;
+    --bs-btn-border-color: #005c5e !important;
+}
